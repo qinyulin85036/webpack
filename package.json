@@ -1,0 +1,18 @@
+{
+  "name": "webpacktest1",
+  "version": "1.0.0",
+  "description": "webpacktest1",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --entry ./js/index.js --output-filename ./dist/bundle.js"
+  },
+  "author": "qin",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.20.2"
+  },
+  "dependencies": {}
+}
